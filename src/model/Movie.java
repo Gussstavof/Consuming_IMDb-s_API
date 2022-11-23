@@ -13,6 +13,22 @@ public class Movie {
         this.imDbRating = imDbRating;
     }
 
+    public String getTitle() {
+        return title;
+    }
+
+    public String getYear() {
+        return year;
+    }
+
+    public String getImage() {
+        return image;
+    }
+
+    public String getImDbRating() {
+        return imDbRating;
+    }
+
     @Override
     public String toString() {
         return "Movie{" +
